@@ -12,7 +12,7 @@ Ensure you have TCP and UPD ports forwarding to the wireguard instances eth IP A
 
 ```dnf install wireguard-tools```
 
-### Ensure you have IPv4 forwarding enabled and IPv6 disabled in /etc/sysctl.conf:
+### Ensure you have IPv4 forwarding enabled and IPv6 disabled in `/etc/sysctl.conf`:
 ```
 net.ipv4.ip_forward = 1
 net.ipv6.conf.all.disable_ipv6 = 1
