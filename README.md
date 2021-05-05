@@ -33,4 +33,12 @@ firewall-cmd --zone=public --add-masquerade
 
 ### Connect tunnels at boot time: 
 
-systemctl enable wg-quick@wg0.conf 
+systemctl enable wg-quick@wg0.conf
+
+### Split-tunnel by default
+
+If you want full-tunnel in your sites, change sites B, C and D configuration files:
+
+AllowedIPs = 0.0.0.0/0
+
+To route all traffic through wireguard tunnel in order to use site-A to reach internet
