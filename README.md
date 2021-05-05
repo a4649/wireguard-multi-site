@@ -1,3 +1,3 @@
 # WireGuard Multi-Site VPN
 
-![diagram](images/diagram.png)
+![diagram](images/diagram-multi.png)
