@@ -1,2 +1,3 @@
-# wireguard-multi-site
-Wireguard Multi-Site VPN
+# WireGuard Multi-Site VPN
+
+![diagram](images/diagram.png)
